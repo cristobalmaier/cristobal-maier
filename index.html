@@ -8,7 +8,7 @@
     <!-- Tailwind CSS (CDN for icons, output.css for styles) -->
     <link rel="stylesheet" href="./src/output.css" />
     <link href="./src/animaciones.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/profile/Adobe Express - file.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/profile/profile.png" type="image/x-icon">
     <!-- Configuración de Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -78,22 +78,75 @@
       
       <!-- Sobre mí: Foto de perfil y bloque de texto -->
       <div class="flex flex-col md:flex-row items-center gap-8 py-10">
-        <img src="./img/profile/profile2.png" alt="Foto de perfil" 
+        <img src="./img/profile/profile.png" alt="Foto de perfil" 
              class="w-44 h-44 rounded-full shadow-lg border-8 border-[#161E2D] dark:border-[#FFFFFF] bg-[#2C3545] dark:bg-[#D8DFF6] object-cover" />
         <div class="flex flex-col items-start md:ml-8" >
           <h1 class="text-4xl md:text-5xl font-bold mb-2 text-white dark:text-[#2f3846]">
             Cristobal Maier
           </h1>
           <p class="text-lg md:text-xl text-gray-200 mb-6 dark:text-gray-950">
-            Soy un apasionado del desarrollo web y del diseño UI/UX.
+            Técnico en programación | Soporte IT | Estudiante de ciberseguridad
           </p>
         </div>
       </div>
       
       <hr class="border border-dotted border-gray-300 dark:border-gray-600 rounded-md" />
       
+      <!-- Sección Experiencia -->
+      <section id="experiencia" class="max-w-5xl mx-auto px-4 py-12">
+        <h2 class="font-bold text-3xl text-gray-100 dark:text-indigo-400 mb-12 flex items-center gap-3" data-aos="fade-in">
+          Experiencia
+          <i class='bx bx-briefcase text-3xl'></i>
+        </h2>
+        
+        <div class="space-y-8">
+          <!-- Experiencia 1 -->
+          <div class="flex flex-col md:flex-row gap-8 items-start" data-aos="fade-up" data-aos-delay="100">
+            <div class="w-full">
+              <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <h4 class="text-xl font-bold text-white dark:text-[#2f3846]">Practicante IT • Siemens Energy</h4>
+                <span class="text-gray-300 dark:text-gray-400 text-lg">Jun. 2026 - Nov. 2026</span>
+              </div>
+              <ul class="text-gray-200 dark:text-gray-700 mb-4 space-y-2">
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Instalación, configuración y mantenimiento de equipos de cómputo con Windows 10/11.</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Diagnóstico y resolución de incidencias técnicas para usuarios internos.</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Mantenimiento preventivo y correctivo de hardware.</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Sanitización y preparación de equipos para donación mediante herramientas seguras (DBAN).</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Configuración de software corporativo y herramientas de productividad (Teams, Office 365).</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2">•</span>
+                  <span>Coordinación con el equipo de IT para asegurar el cumplimiento de procesos y la continuidad operativa en un entorno corporativo global.</span>
+                </li>
+              </ul>
+              <div class="flex flex-wrap gap-2 mt-4">
+                <span class="px-3 py-1 bg-gray-700 dark:bg-gray-200 text-gray-200 dark:text-gray-700 rounded-full text-sm">Soporte Técnico</span>
+                <span class="px-3 py-1 bg-gray-700 dark:bg-gray-200 text-gray-200 dark:text-gray-700 rounded-full text-sm">Windows 10/11</span>
+                <span class="px-3 py-1 bg-gray-700 dark:bg-gray-200 text-gray-200 dark:text-gray-700 rounded-full text-sm">Office 365</span>
+                <span class="px-3 py-1 bg-gray-700 dark:bg-gray-200 text-gray-200 dark:text-gray-700 rounded-full text-sm">Mantenimiento de Hardware</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
       <!-- Sección Proyectos -->
-      <section id="proyectos" class="max-w-5xl mx-auto px-4 py-12">
+      <section id="contacto" class="max-w-5xl mx-auto px-4 py-12">
         <h2 class="font-bold text-3xl text-gray-100 dark:text-indigo-400 mb-6 flex items-center gap-3" data-aos="fade-in">
           Proyectos
           <i class="bx bxs-star text-3xl animate-pulse-slow"></i>
@@ -103,37 +156,40 @@
           <!-- Proyecto 1 -->
           <div class="flex flex-col md:flex-row gap-12 items-start  transition-all duration-300 rounded-xl p-2" 
                data-aos="fade-up" data-aos-delay="100">
-            <img src="./img/proyectos/acordator-enlaces.webp" alt="Acortador de Enlaces"
+            <img src="./img/proyectos/auka-foto.webp" alt="Acortador de Enlaces"
                  class="w-full md:w-[350px] lg:w-[380px] h-56 md:h-64 object-cover rounded-xl shadow-lg bg-gray-900 transition-transform duration-300 hover:scale-105" />
             <div class="flex-1 flex flex-col gap-2 mb-4">
               <h3 class="text-3xl font-bold text-white mb-1 whitespace-nowrap dark:text-[#2f3846]">
-                Acortador de Enlaces
+                aukaTech
               </h3>
               <p class="text-lg text-gray-200 mb-2 dark:text-slate-600">
-                Un acortador de URLs moderno con funcionalidad de generación de códigos
-                QR y historial de enlaces.
+                Sistema de gestión de soporte técnico. Su función principal es gestionar solicitudes de soporte técnico dentro de empresas.
               </p>
               <div class="flex items-center gap-3 mb-4">
                 <span class="w-7 h-7 flex items-center tech-icon" title="HTML" >
                   <img src="./assets/html5.svg" alt="HTML5 Logo" class="w-full h-full object-contain " />
                 </span>
-                <span class="w-7 h-7 flex items-center tech-icon" title="Tailwind" >
-                  <img src="./assets/tailwindcss.svg" alt="Tailwind Logo" class="w-full h-full object-contain " />
+                <span class="w-7 h-7 flex items-center tech-icon" title="HTML" >
+                  <img src="./assets/css_old.svg" alt="CSS" class="w-full h-full object-contain " />
                 </span>
-                <span class="w-7 h-7 flex items-center tech-icon" title="JavaScript" >
-                  <img src="./assets/javascript.svg" alt="JavaScript Logo" class="w-full h-full object-contain " />
+                <span class="w-7 h-7 flex items-center tech-icon" title="HTML" >
+                  <img src="./assets/javascript.svg" alt="javascript" class="w-full h-full object-contain " />
+                </span>
+                <span class="w-7 h-7 flex items-center tech-icon" title="Node js" >
+                  <img src="./assets/nodejs-icon-svgrepo-com.svg" alt="Node js Logo" class="w-full h-full object-contain " />
+                </span>
+                <span class="w-7 h-7 flex items-center tech-icon" title="EJS" >
+                  <img src="./assets/ejs-svgrepo-com.svg" alt="EJS" class="w-full h-full object-contain " />
+                </span>
+                <span class="w-7 h-7 flex items-center tech-icon" title="MySQL" >
+                  <img src="./assets/mysql-logo-svgrepo-com.svg" alt="MySQL" class="w-full h-full object-contain " />
                 </span>
               </div>
               <div class="flex gap-3 mt-2">
-                <a href="https://github.com/cristobalmaier/acortador-enlances" 
+                <a href="https://github.com/cristobalmaier/auka-Tech" 
                    class="bg-white text-gray-900 font-semibold px-6 py-2 rounded-lg flex items-center gap-2 shadow hover:bg-gray-200 transition dark:bg-[#0F172A] dark:hover:bg-gray-950 dark:transition dark:text-white hover:-translate-y-1 hover:scale-105 duration-300">
                   Code
                   <i class="bx bxl-github"></i>
-                </a>
-                <a href="https://acortador-enlaces.netlify.app/" 
-                   class="bg-white text-gray-900 font-semibold px-6 py-2 rounded-lg flex items-center gap-2 shadow hover:bg-gray-200 transition dark:bg-[#0F172A] dark:hover:bg-gray-950 dark:transition dark:text-white hover:-translate-y-1 hover:scale-105 duration-300">
-                  Live
-                  <i class="bx bx-link-alt"></i>
                 </a>
               </div>
             </div>
